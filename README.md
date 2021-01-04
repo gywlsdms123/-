@@ -11,6 +11,10 @@ description: 영상처리
 * \*\*\*\*[**https://www.anaconda.com/products/individual**](https://www.anaconda.com/products/individual)\*\*\*\*
 * \*\*\*\*[**https://mingtrace.tistory.com/495**](https://mingtrace.tistory.com/495)\*\*\*\*
 
+### Jupyter Notebook 사용 시 커널 설정 
+
+* [https://supermemi.tistory.com/35](https://supermemi.tistory.com/35)
+
 ### python 설치 \(3.8.5 버전 다운\)
 
 * [https://www.python.org/downloads/release/python-385/](https://www.python.org/downloads/release/python-385/)
