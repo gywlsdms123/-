@@ -14,7 +14,8 @@
 ## Python
 
 * [Book](python/book/README.md)
-  * [01장](python/book/01.md)
+  * [01장](python/book/01/README.md)
+    * [Untitled](python/book/01/untitled.md)
   * [02장](python/book/02.md)
   * [03장](python/book/03.md)
   * [04장](python/book/04.md)

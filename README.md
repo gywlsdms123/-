@@ -1,5 +1,5 @@
 ---
-description: 영상처리
+description: 'python, anaconda'
 ---
 
 # python 개발 환경 구축
