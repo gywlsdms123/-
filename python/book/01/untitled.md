@@ -16,7 +16,11 @@
 
 ![&#xAC00;&#xC7A5; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xC4F0;&#xC774;&#xB294; &#xD30C;&#xC774;&#xC36C; &#xD234;](../../../.gitbook/assets/image%20%287%29.png)
 
+## python 개발 툴 설치 
 
+파이썬 실습 시 visual Studio Code 혹은 jupyter notebook 등으로 사용할 수 있다. 
+
+각각의 프로그램 설치 방법은 [위 링크](https://app.gitbook.com/@gywlsdms123/s/notes/~/drafts/-MQFw8u1rd7c4LuxV_b4/)에 있습니다.
 
 
 

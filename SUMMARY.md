@@ -8,6 +8,8 @@
 * [Book](python/book/README.md)
   * [01장](python/book/01/README.md)
     * [파이썬 설치](python/book/01/untitled.md)
+    * [Visual Studio Code](python/book/01/visual-studio-code.md)
+    * [Anaconda](python/book/01/anaconda.md)
   * [02장](python/book/02/README.md)
     * [Untitled](python/book/02/untitled.md)
     * [Untitled](python/book/02/untitled-1.md)
