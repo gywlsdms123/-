@@ -22,7 +22,7 @@
 ## vision Study <a id="vision"></a>
 
 * [Pytorch](vision/untitled/README.md)
-  * [Untitled](vision/untitled/untitled-1-1.md)
+  * [Convolution Neural Network](vision/untitled/untitled-1-1.md)
   * [Untitled](vision/untitled/untitled-1.md)
 * [TensorFlow](vision/tensorflow/README.md)
   * [Untitled](vision/tensorflow/untitled-1.md)

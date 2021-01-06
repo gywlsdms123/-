@@ -19,6 +19,10 @@ description: 'python, anaconda'
 
 * [https://www.python.org/downloads/release/python-385/](https://www.python.org/downloads/release/python-385/)
 
+### python docs 
+
+* [https://docs.python.org/ko/3/](https://docs.python.org/ko/3/)
+
 ## 추가적으로 다운할 것들 
 
 * [visual studio 2019](https://visualstudio.microsoft.com/ko/vs/)
