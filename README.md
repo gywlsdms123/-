@@ -6,6 +6,8 @@ description: 'python, anaconda'
 
 ## python download
 
+[개발환경세팅](https://app.gitbook.com/@gywlsdms123/s/notes/~/drafts/-MQLddSBwWQNnqslvnd6/python/book/01/untitled) &lt; click
+
 ### anaconda 설치 \(참고\)
 
 * \*\*\*\*[**https://www.anaconda.com/products/individual**](https://www.anaconda.com/products/individual)\*\*\*\*
