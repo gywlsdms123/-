@@ -1,6 +1,7 @@
 # Table of contents
 
 * [python 개발 환경 구축](README.md)
+* [파이썬 설치](untitled-1.md)
 * [C\#-TensorFlow 연동](c-tensorflow.md)
 
 ## Python
@@ -8,7 +9,6 @@
 * [Book](python/book/README.md)
   * [Untitled](python/book/untitled.md)
   * [01장](python/book/01/README.md)
-    * [파이썬 설치](python/book/01/untitled.md)
     * [Visual Studio Code](python/book/01/visual-studio-code.md)
     * [Anaconda](python/book/01/anaconda.md)
   * [02장](python/book/02.md)

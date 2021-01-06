@@ -6,7 +6,7 @@ description: 'python, anaconda'
 
 ## python download
 
-[개발환경세팅](https://app.gitbook.com/@gywlsdms123/s/notes/~/drafts/-MQLddSBwWQNnqslvnd6/python/book/01/untitled) &lt; click
+[개발환경세팅](https://app.gitbook.com/@gywlsdms123/s/notes/~/drafts/-MQLeKjfzjsVlDQ87e_N/untitled-1) &lt; click
 
 ### anaconda 설치 \(참고\)
 
