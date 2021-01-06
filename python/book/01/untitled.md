@@ -16,11 +16,13 @@
 
 ![&#xAC00;&#xC7A5; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xC4F0;&#xC774;&#xB294; &#xD30C;&#xC774;&#xC36C; &#xD234;](../../../.gitbook/assets/image%20%287%29.png)
 
-## python 개발 툴 설치 
+## visual studio Code 설치 
 
-파이썬 실습 시 visual Studio Code 혹은 jupyter notebook 등으로 사용할 수 있다. 
+파이썬 실습 시 visual Studio Code, pycharm, jupyter notebook 등으로 사용할 수 있다. 
 
-각각의 프로그램 설치 방법은 [위 링크](https://app.gitbook.com/@gywlsdms123/s/notes/~/drafts/-MQFw8u1rd7c4LuxV_b4/)에 있습니다.
+[visual studio  code ](https://code.visualstudio.com/docs/?dv=win)&lt; download click
+
+[visual studio code 세팅 방법 ](https://yjshin.tistory.com/entry/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-Visual-Studio-Code-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95)&lt; click
 
 
 
