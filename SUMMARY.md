@@ -1,7 +1,7 @@
 # Table of contents
 
-* [python 개발 환경 구축](README.md)
-* [파이썬 설치](untitled-1.md)
+* [파이썬 설치](README.md)
+* [python 개발 환경 구축](untitled-1.md)
 * [C\#-TensorFlow 연동](c-tensorflow.md)
 
 ## Python
