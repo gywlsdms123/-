@@ -22,6 +22,7 @@
 
 * [Pytorch](vision/untitled/README.md)
   * [pytorch 개발 환경 세팅](vision/untitled/pytorch.md)
+  * [colab](vision/untitled/colab.md)
   * [Convolution Neural Network](vision/untitled/untitled-1-1.md)
   * [Untitled](vision/untitled/untitled-1.md)
 * [TensorFlow](vision/tensorflow/README.md)
