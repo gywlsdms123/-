@@ -6,6 +6,7 @@
 
 ## Python
 
+* [Docker 설치](python/docker.md)
 * [Book](python/book/README.md)
   * [Untitled](python/book/untitled.md)
   * [01장](python/book/01/README.md)
@@ -20,6 +21,7 @@
 
 ## vision Study <a id="vision"></a>
 
+* [Untitled](vision/untitled-1.md)
 * [Pytorch](vision/untitled/README.md)
   * [pytorch 개발 환경 세팅](vision/untitled/pytorch.md)
   * [colab](vision/untitled/colab.md)
@@ -31,5 +33,6 @@
 
 ## paper preview
 
+* [Deep Residual Learning for Image Recognition](paper-preview/deep-residual-learning-for-image-recognition.md)
 * [Unsupervised learning of probabilistic diffeomorphic registration for images and surfaces](paper-preview/unsupervised-learning-of-probabilistic-diffeomorphic-registration-for-images-and-surfaces.md)
 
