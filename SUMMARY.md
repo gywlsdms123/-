@@ -33,6 +33,8 @@
 
 ## paper preview
 
+* [You Only Look Once:Unified, Real-Time Object Detection](paper-preview/you-only-look-once-unified-real-time-object-detection.md)
+* [Rich feature hierarchies for accurate object detection and semantic segmentationTech report \(v5\)](paper-preview/rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentationtech-report-v5.md)
 * [Deep Residual Learning for Image Recognition](paper-preview/deep-residual-learning-for-image-recognition.md)
 * [Unsupervised learning of probabilistic diffeomorphic registration for images and surfaces](paper-preview/unsupervised-learning-of-probabilistic-diffeomorphic-registration-for-images-and-surfaces.md)
 
