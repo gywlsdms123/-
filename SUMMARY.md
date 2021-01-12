@@ -22,6 +22,7 @@
 ## vision Study <a id="vision"></a>
 
 * [Untitled](vision/untitled-1.md)
+* [window-리눅스](vision/window.md)
 * [Pytorch](vision/untitled/README.md)
   * [pytorch 개발 환경 세팅](vision/untitled/pytorch.md)
   * [colab](vision/untitled/colab.md)
