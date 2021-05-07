@@ -54,7 +54,7 @@ Note: you could also apply the constraints and/or the indexes before loading the
 #### postgresql 
 
 1. ohdsi\_cdm 데이터베이스 생성
-2. synpuf5 스키마 생성 - 터미널에서 CREATE SCHMA synpuf5; 또는 DBeaver로 생성 \(**Create an empty schema\)**
+2. synpuf5 스키마 생성 - 터미널에서 CREATE SCHMA synpuf5; 또는 DBeaver로 생성 \(**1. Create an empty schema**
 
 ```bash
 psql -h localhost -U postgres -d ohdsi_cdm
@@ -73,7 +73,7 @@ CREATE SCHEMA
 
 #### 테이블 생성 스크립트 실행
 
-#### \(Execute the script `OMOP CDM ddl - PostgreSQL.sql` to create the tables and fields.\)
+#### \(2. Execute the script `OMOP CDM ddl - PostgreSQL.sql` to create the tables and fields.\)
 
 ```bash
 cd PostgreSQL
@@ -81,7 +81,7 @@ cd PostgreSQL
 ~/CommonDataModel/PostgreSQL$ psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ ddl\ -\ PostgreSQL.sql
 ```
 
-#### Loda your data into the schema
+#### 3. Loda your data into the schema
 
 * [CDM DATA - synpuf5](https://drive.google.com/file/d/18EjMxyA6NsqBo9eed_Gab1ESHWPxJygz/view)
 * CDM DATA - voca 는 아테나에서 다운 
@@ -128,13 +128,13 @@ VocabImport 폴더 -&gt; voca path 수정 후 위와 같이 insert
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ vocabulary\ load\ -\ PostgreSQL.sql
 ```
 
-#### **Execute the script `OMOP CDM constraints - PostgreSQL.sql` to add the constraints \(primary and foreign keys\).**
+#### **4. Execute the script `OMOP CDM constraints - PostgreSQL.sql` to add the constraints \(primary and foreign keys\).**
 
 ```bash
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ constraints\ -\ PostgreSQL.sql
 ```
 
-#### **Execute the script `OMOP CDM indexes required - PostgreSQL.sql` to add the minimum set of indexes we recommend.**
+#### **5. Execute the script `OMOP CDM indexes required - PostgreSQL.sql` to add the minimum set of indexes we recommend.**
 
 ```bash
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ indexes required\ -\ PostgreSQL.sql
