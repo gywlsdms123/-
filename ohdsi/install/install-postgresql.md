@@ -114,7 +114,7 @@ sudo apt -y install dbeaver-ce
 apt policy dbeaver-ce
 ```
 
-## Install pgadmin3
+## Install pgadmin3 X
 
 ```bash
 curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
