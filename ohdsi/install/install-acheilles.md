@@ -183,3 +183,47 @@ optimizeAtlasCache(connectionDetails,
                    vocabDatabaseSchema = "dbo")   
 ```
 
+```r
+INSERT INTO "webapi"."source" (
+    "source_id",
+    "source_name",
+    "source_key",
+    "source_connection",
+    "source_dialect",
+    "username",
+    "password",
+    "krb_auth_method",
+    "keytab_name",
+    "krb_keytab",
+    "krb_admin_server",
+    "deleted_date",
+    "created_by_id",
+    "created_date",
+    "modified_by_id",
+    "modified_date" 
+)
+VALUES
+    (
+        1,
+        'OHDSI V5 Database',
+        'OHDSI-CDMV5',
+        'jdbc:postgresql://localhost/ohdsi',
+        'postgresql',
+        'user',
+        'password',
+        'PASSWORD',
+        NULL,
+        NULL,
+        NULL,
+        NULL,
+        NULL,
+        NULL,
+        NULL,
+        NULL 
+    );
+INSERT INTO "webapi"."source_daimon"("source_daimon_id", "source_id", "daimon_type", "table_qualifier", "priority") VALUES (1, 1, 0, 'cdm', 2);
+INSERT INTO "webapi"."source_daimon"("source_daimon_id", "source_id", "daimon_type", "table_qualifier", "priority") VALUES (2, 1, 1, 'cdm', 2);
+INSERT INTO "webapi"."source_daimon"("source_daimon_id", "source_id", "daimon_type", "table_qualifier", "priority") VALUES (3, 1, 2, 'results', 2);
+INSERT INTO "webapi"."source_daimon"("source_daimon_id", "source_id", "daimon_type", "table_qualifier", "priority") VALUES (4, 1, 5, 'temp', 2);
+```
+
