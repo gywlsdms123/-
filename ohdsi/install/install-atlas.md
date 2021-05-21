@@ -159,5 +159,11 @@ define(function () {
 {% endtab %}
 {% endtabs %}
 
+```text
+npm run build
+```
+
+{% embed url="http://localhost:8080/atlas/\#/home" %}
+
 
 
