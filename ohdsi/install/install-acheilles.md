@@ -2,6 +2,8 @@
 
 ## Download R & R Studio
 
+#### R
+
 ```
 $ sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 
@@ -20,7 +22,7 @@ $ R
 > install.packages("stringr")
 ```
 
-#### R stud
+#### R studio
 
 ```text
 $ sudo apt update
@@ -120,6 +122,14 @@ achilles(connectionDetails,
 ```
 {% endtab %}
 {% endtabs %}
+
+#### path 오류 
+
+{% file src="../../.gitbook/assets/postgresql-42.2.18.zip" %}
+
+#### ~/tmp/jdbcDrivers 안에 압축 풀기 
+
+
 
 #### [https://github.com/OHDSI/AchillesWeb.git](https://github.com/OHDSI/AchillesWeb.git)
 
