@@ -54,4 +54,6 @@
   * [Install postgresql](ohdsi/install/install-postgresql.md)
   * [Install CDM](ohdsi/install/install-cdm.md)
   * [Install WebAPI](ohdsi/install/install-webapi.md)
+  * [Install Acheilles](ohdsi/install/install-acheilles.md)
+  * [Install Atlas](ohdsi/install/install-atlas.md)
 
