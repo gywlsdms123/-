@@ -140,5 +140,5 @@ psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ constraints\ -\ Post
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ indexes required\ -\ PostgreSQL.sql
 ```
 
-
+[https://github.com/OHDSI/WebAPI/wiki/CDM-Configuration](https://github.com/OHDSI/WebAPI/wiki/CDM-Configuration)
 
