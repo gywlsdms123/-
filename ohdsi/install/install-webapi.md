@@ -107,7 +107,7 @@ mvn clean package -DskipTests -s WebAPIConfig/settings.xml -P webapi-postgresql
 
 ohdsi\_app_\__user 모든 테이블에 권한 insert, select, update, delete 부여 
 
-localhost:8080 접속 war 파일 디플로이 
+localhost:8080 접속 war file deploy 
 
 
 
