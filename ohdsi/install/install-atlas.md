@@ -4,9 +4,11 @@
 
 ```text
 git clone https://github.com/OHDSI/Atlas.git
+
+git checkout v2.9.0
 ```
 
-#### Atlas -&gt; js -&gt; config-local.js 생
+#### Atlas -&gt; js -&gt; config-local.js 생성
 
 {% tabs %}
 {% tab title="config-gis.js" %}

@@ -237,3 +237,7 @@ INSERT INTO "webapi"."source_daimon"("source_daimon_id", "source_id", "daimon_ty
 INSERT INTO "webapi"."source_daimon"("source_daimon_id", "source_id", "daimon_type", "table_qualifier", "priority") VALUES (4, 1, 5, 'temp', 2);
 ```
 
+#### http://localhost:8080/WebAPI/source/refresh
+
+#### http://localhost:8080/WebAPI/source/sources
+
