@@ -128,7 +128,7 @@ VocabImport 폴더 -&gt; voca path 수정 후 위와 같이 insert
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ vocabulary\ load\ -\ PostgreSQL.sql
 ```
 
-#### **4. Execute the script `OMOP CDM constraints - PostgreSQL.sql` to add the constraints \(primary and foreign keys\).**
+#### **4**~~**. Execute the script `OMOP CDM constraints - PostgreSQL.sql` to add the constraints \(primary and foreign keys\).**~~
 
 ```bash
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ constraints\ -\ PostgreSQL.sql
