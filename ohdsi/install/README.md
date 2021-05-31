@@ -27,7 +27,7 @@ Create User
 ```
 {% endcode %}
 
-{% code title="$ sudo nano sudo nano /usr/share/tomcat9-admin/manager/WEB-INF/web.xml" %}
+{% code title="$ sudo nano /usr/share/tomcat9-admin/manager/WEB-INF/web.xml" %}
 ```bash
 <multipart-config>
   <!-- 250MB max -->
@@ -47,7 +47,7 @@ $ sudo systemctl restart tomcat9
 ```bash
 $ sudo apt install openjdk-8-jdk
 
-$ java -version
+$ javaj -version
 openjdk version "1.8.0_292"
 OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10)
 OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
@@ -150,4 +150,6 @@ source /etc/profile
 ```
 {% endtab %}
 {% endtabs %}
+
+49.236.132.152
 

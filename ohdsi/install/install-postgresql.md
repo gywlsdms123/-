@@ -147,5 +147,9 @@ sudo apt install pgadmin4
 
 
 
-[https://github.com/OHDSI/WebAPI/wiki/PostgreSQL-Installation-Guide](https://github.com/OHDSI/WebAPI/wiki/PostgreSQL-Installation-Guide)
+{% embed url="https://github.com/OHDSI/WebAPI/wiki/PostgreSQL-Installation-Guide" %}
+
+
+
+
 

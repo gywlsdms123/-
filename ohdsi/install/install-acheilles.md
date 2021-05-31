@@ -73,6 +73,31 @@ devtools::install_github("OHDSI/Achilles")
 # devtools::install_github("OHDSI/Achilles", args="--no-multiarch")  
 ```
 
+```r
+Sys.setenv("JAVA_HOME"='/usr/lib/jvm/8.0.265-open/jre')
+Sys.setenv("DATABASECONNECTOR_JAR_FOLDER"='/usr/local/lib/R/site-library/DatabaseConnectorJars/java/')
+dyn.load('/usr/lib/jvm/8.0.265-open/jre/lib/amd64/server/libjvm.so')
+library(rJava)
+library(DatabaseConnector)
+library(Achilles)
+connectionDetails <- createConnectionDetails(
+dbms="postgresql",
+server="server IP/DB name",
+user="USER",
+password="PASSWORD",
+port="5432"
+)
+achilles(
+connectionDetails,
+cdmDatabaseSchema="cdmSchema",
+resultsDatabaseSchema="resultSchema",
+vocabDatabaseSchema="cdmSchema",
+scratchDatabaseSchema="scratchSchema",
+cdmVersion="5",
+numThreads=10
+)
+```
+
 {% tabs %}
 {% tab title="R connect" %}
 ```r
