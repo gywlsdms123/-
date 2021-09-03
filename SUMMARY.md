@@ -5,6 +5,15 @@
 * [python 개발 환경 구축](untitled-1.md)
 * [C\#-TensorFlow 연동](c-tensorflow.md)
 
+## OHDSI CDM <a id="ohdsi"></a>
+
+* [Install](ohdsi/install/README.md)
+  * [Install postgresql](ohdsi/install/install-postgresql.md)
+  * [Install CDM](ohdsi/install/install-cdm.md)
+  * [Install WebAPI](ohdsi/install/install-webapi.md)
+  * [Install Acheilles](ohdsi/install/install-acheilles.md)
+  * [Install Atlas](ohdsi/install/install-atlas.md)
+
 ## Python
 
 * [Docker 설치](python/docker.md)
@@ -47,13 +56,4 @@
 * [PACS/DICOM/Visualization](medical-image-analysis/pacs-dicom-visualization.md)
 * [Brain image Classification](medical-image-analysis/brain-image-classification.md)
 * [Untitled](medical-image-analysis/untitled-1.md)
-
-## OHDSI CDM <a id="ohdsi"></a>
-
-* [Install](ohdsi/install/README.md)
-  * [Install postgresql](ohdsi/install/install-postgresql.md)
-  * [Install CDM](ohdsi/install/install-cdm.md)
-  * [Install WebAPI](ohdsi/install/install-webapi.md)
-  * [Install Acheilles](ohdsi/install/install-acheilles.md)
-  * [Install Atlas](ohdsi/install/install-atlas.md)
 
