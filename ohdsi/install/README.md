@@ -151,5 +151,15 @@ source /etc/profile
 {% endtab %}
 {% endtabs %}
 
-49.236.132.152
+
+
+윈도우 컴퓨터의 경우
+
+JDK8 [https://the-duchi.tistory.com/4](https://the-duchi.tistory.com/4)
+
+maven [https://jiwondh.github.io/2018/08/08/maven-install/](https://jiwondh.github.io/2018/08/08/maven-install/)
+
+tomcat [https://forkmk.tistory.com/217](https://forkmk.tistory.com/217) 
+
+차례로 다운
 
