@@ -57,14 +57,14 @@ Note: you could also apply the constraints and/or the indexes before loading the
 2. synpuf5 스키마 생성 - 터미널에서 CREATE SCHMA synpuf5; 또는 DBeaver로 생성 \(**1. Create an empty schema**
 
 ```bash
-psql -h localhost -U postgres -d ohdsi_cdm
+psql -h localhost -U postgres -d ohdsi
 
 postgres 사용자의 암호: 
 psql (12.6 (Ubuntu 12.6-1.pgdg20.04+1))
 SSL 연결정보 (프로토콜: TLSv1.3, 암호화기법: TLS_AES_256_GCM_SHA384, 비트: 256, 압축: off)
 도움말을 보려면 "help"를 입력하십시오.
 
-ohdsi_cdm=# CREATE SCHEMA synpuf5;
+ohdsi=# CREATE SCHEMA synpuf5;
 CREATE SCHEMA
 
 ```

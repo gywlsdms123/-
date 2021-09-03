@@ -165,9 +165,88 @@ pgadmin4 혹은 dbeaver를 다운받아 작업한다'
 
 참고하여 그대로 실행 
 
-1. role 추가 
-2. CDM 데이터베이스 추가 
-3. webapi
+```sql
+-- create role
+CREATE ROLE ohdsi_admin
+  CREATEDB REPLICATION
+   VALID UNTIL 'infinity';
+COMMENT ON ROLE ohdsi_admin
+  IS 'Administration group for OHDSI applications';
+  
+  
+
+CREATE ROLE ohdsi_app
+   VALID UNTIL 'infinity';
+COMMENT ON ROLE ohdsi_app
+  IS 'Application groupfor OHDSI applications';
+  
+
+
+CREATE ROLE ohdsi_admin_user LOGIN ENCRYPTED PASSWORD 'admin1234'
+   VALID UNTIL 'infinity';
+GRANT ohdsi_admin TO ohdsi_admin_user;
+COMMENT ON ROLE ohdsi_admin_user
+  IS 'Admin user account for OHDSI applications';
+  
+  
+CREATE ROLE ohdsi_app_user LOGIN ENCRYPTED PASSWORD 'admin1234'
+   VALID UNTIL 'infinity';
+GRANT ohdsi_app TO ohdsi_app_user;
+COMMENT ON ROLE ohdsi_app_user
+  IS 'Application user account for OHDSI applications';
+  
+  
+-- create database 
+CREATE DATABASE "OHDSI"
+WITH ENCODING='UTF8'
+     OWNER=ohdsi_admin
+     CONNECTION LIMIT=-1;
+COMMENT ON DATABASE "OHDSI"
+  IS 'OHDSI database';
+GRANT ALL ON DATABASE "OHDSI" TO GROUP ohdsi_admin;
+GRANT CONNECT, TEMPORARY ON DATABASE "OHDSI" TO GROUP ohdsi_app;
+
+
+-- connect OHDSI
+
+CREATE SCHEMA cdm
+       AUTHORIZATION ohdsi_admin;
+COMMENT ON SCHEMA cdm
+  IS 'Schema containing tables to support WebAPI functionality';
+GRANT USAGE ON SCHEMA cdm TO PUBLIC;
+GRANT ALL ON SCHEMA cdm TO GROUP ohdsi_admin;
+GRANT USAGE ON SCHEMA cdm TO GROUP ohdsi_app;
+
+
+CREATE SCHEMA webapi
+       AUTHORIZATION ohdsi_admin;
+COMMENT ON SCHEMA webapi
+  IS 'Schema containing tables to support WebAPI functionality';
+GRANT USAGE ON SCHEMA webapi TO PUBLIC;
+GRANT ALL ON SCHEMA webapi TO GROUP ohdsi_admin;
+GRANT USAGE ON SCHEMA webapi TO GROUP ohdsi_app;
+
+
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA webapi
+    GRANT INSERT, SELECT, UPDATE, DELETE, REFERENCES, TRIGGER ON TABLES
+    TO ohdsi_app;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA webapi
+    GRANT SELECT, USAGE ON SEQUENCES
+    TO ohdsi_app;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA webapi
+    GRANT EXECUTE ON FUNCTIONS
+    TO ohdsi_app;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA webapi
+    GRANT USAGE ON TYPES
+    TO ohdsi_app;
+```
+
+1. OHDSI 데이터베이스  
+2. cdm, webapi 스키마 추가
 
 
 
