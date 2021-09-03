@@ -8,9 +8,9 @@ description: OHDSI OMOP CDM
 
 [link](https://app.gitbook.com/@gywlsdms123/s/notes/~/drafts/-M_3aShBp1b9ocuG715S/ohdsi/install/install-postgresql)
 
-## OHDSI Software Tools 
+## OHDSI Software 설치 순서 
 
-1. **CDM** \([CommonDataModel V6.0](https://github.com/OHDSI/CommonDataModel/tree/v6.0_fixes)\)
+1. **CDM** \([CommonDataModel V5.3.1](https://github.com/OHDSI/CommonDataModel/tree/v5.3.1_fixes)\)
 2. **ATLAS**: web-based tool \([link](https://github.com/OHDSI/Atlas)\) \([OHDSI WebAPI](https://github.com/OHDSI/WebAPI)\)
 3. **ACHILLES** \([link](https://github.com/OHDSI/Achilles)\)
 
@@ -27,7 +27,7 @@ description: OHDSI OMOP CDM
 git clone https://github.com/OHDSI/CommonDataModel.git
 
 cd CommonDataModel
-git checkout v5.2.2 # v5.3.1 이나 v.6.0.0 으로 바꿔도 됨 
+git checkout v5.3.1 
 ```
 
 #### CommonDataModel/Postgresql/README.md
@@ -140,5 +140,13 @@ psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ constraints\ -\ Post
 psql -h localhost -U postgres -d ohdsi_cdm -a -f OMOP\ CDM\ indexes required\ -\ PostgreSQL.sql
 ```
 
-[https://github.com/OHDSI/WebAPI/wiki/CDM-Configuration](https://github.com/OHDSI/WebAPI/wiki/CDM-Configuration)
+{% embed url="https://github.com/OHDSI/WebAPI/wiki/CDM-Configuration" %}
+
+WebAPI 문서 무조건 확인할 것 
+
+1. CDM data 적재 
+2. Voca 적재 
+3. 인덱스 및 constraints 설정
+
+1, 2, 3번 완료 시 데이터 준비는 끝
 

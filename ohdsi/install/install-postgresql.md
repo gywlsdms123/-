@@ -151,5 +151,23 @@ sudo apt install pgadmin4
 
 
 
+## 윈도우의 경우 
+
+postgresql12 다운로드  [https://dog-developers.tistory.com/122](https://dog-developers.tistory.com/122)
+
+pgadmin4 혹은 dbeaver를 다운받아 작업한다'
+
+
+
+## CDM 데이터베이스 구조 
+
+{% embed url="https://github.com/OHDSI/WebAPI/wiki/PostgreSQL-Installation-Guide" %}
+
+참고하여 그대로 실행 
+
+1. role 추가 
+2. CDM 데이터베이스 추가 
+3. webapi
+
 
 
