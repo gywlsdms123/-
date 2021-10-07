@@ -59,7 +59,6 @@ OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
 ```bash
 $ sudo nano /etc/environment
 
-
 JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 
 source /etc/environmnet
@@ -91,6 +90,7 @@ mv apache-maven-3.6.3 apachemaven
 #### Setup Environment Variable
 
 ```bash
+
 sudo nano /etc/profile.d/maven.sh
 
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64

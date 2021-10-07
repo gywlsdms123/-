@@ -55,7 +55,7 @@ systemctl status postgresql@12-main.service
 
 sudo su - postgres
 
-psql -c "alter user postgres with password '1234'"
+psql -c "alter user postgres with password ''"
 ```
 
 {% tabs %}
@@ -78,7 +78,7 @@ deb http://apt.postgresql.org/pub/repos/apt/ focal-pgdg main
 sudo su - postgres
 # postgres 비밀번호 설정 
 psql -c "alter user postgres with password 'password'"
-
+                                  
 ~postgres# createuser --pwprompt --interactive [userid]
 
 
